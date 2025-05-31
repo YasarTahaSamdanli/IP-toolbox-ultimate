@@ -13,8 +13,21 @@ class HackerToolboxUltimate:
         self.root = root
         self.root.title("Toolbox ULTIMATE")
         self.root.minsize(1000, 800)
+        
+        # Logo ekleme
+        try:
+            self.logo = tk.PhotoImage(file='logo.png')
+            self.root.iconphoto(False, self.logo)
+        except Exception as e:
+            print(f"Logo yüklenirken hata oluştu: {e}")
+            # Logo yüklenemezse devam et
+            
         self.is_running = False
         self.current_process = None
+        
+        # Variables
+        self.stealth_var = tk.BooleanVar()
+        # ... (diğer kodlar aynı şekilde devam eder)
         
         # Variables
         self.stealth_var = tk.BooleanVar()
