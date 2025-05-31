@@ -74,19 +74,16 @@
 3. Tarama türünü seç *(SYN, UDP, vb.)*  
 4. `Nmap Tara` butonuna bas
 
-### 🧪 Örnek Nmap Çıktısı:
+## 🧪 Örnek Nmap Çıktısı:
 
-```text
+```
 Starting Nmap 7.92 ( https://nmap.org )
 Nmap scan report for example.com (93.184.216.34)
 PORT    STATE SERVICE
 80/tcp  open  http
 443/tcp open  https
-
-
-
-
-
+ 
+```
 ## ⚠️ Yasal Uyarı ve Etik Kullanım
 
 **Bu araç yalnızca:**
@@ -103,3 +100,7 @@ PORT    STATE SERVICE
 - Nmap ve benzeri tarama araçlarının izinsiz kullanımı **5237 sayılı TCK**'nın 243-245. maddelerine göre suçtur
 - Ethical hacking için mutlaka **hedefin yazılı onayını** alın
 - Sorumluluk **tamamen kullanıcıya** aittir
+- ⚠️ Bu araç yalnızca eğitim, test ve yetkili sistemlerde kullanım içindir. 
+İzinsiz sistemlere yapılan taramalar yasa dışıdır. Geliştirici bu tür kullanımlardan sorumlu değildir.
+
+```
