@@ -192,10 +192,13 @@ class HackerToolboxUltimate:
         self.decoy_entry.pack(fill=tk.X, pady=2)
         ttk.Label(adv_frame, text="Örnek: RND:5 veya 1.1.1.1,2.2.2.2", font=('Helvetica', 8)).pack(anchor='w')
         
+        # Mac Spoffing 
         ttk.Label(adv_frame, text="MAC Spoofing:").pack(anchor='w')
         mac_options = ["Yok", "Apple", "Cisco", "Realtek", "Microsoft", "Rastgele"]
-        self.mac_menu = ttk.OptionMenu(adv_frame, self.mac_var, *mac_options)
+        self.mac_menu = ttk.OptionMenu(adv_frame, self.mac_var, self.mac_var.get(), *mac_options)
         self.mac_menu.pack(fill=tk.X, pady=2)
+        
+        
         
         # Quick Tools Frame
         tools_frame = ttk.LabelFrame(left_panel, text="Hızlı Araçlar", padding="10")
