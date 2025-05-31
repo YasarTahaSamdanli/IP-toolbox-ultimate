@@ -82,3 +82,24 @@ Nmap scan report for example.com (93.184.216.34)
 PORT    STATE SERVICE
 80/tcp  open  http
 443/tcp open  https
+
+
+
+
+
+## ⚠️ Yasal Uyarı ve Etik Kullanım
+
+**Bu araç yalnızca:**
+✅ Kendi sistemlerinizde  
+✅ Yazılı izin alınmış hedeflerde  
+✅ Etik hacking eğitimleri için  
+
+**Kesinlikle yasak olanlar:**
+❌ Yetkisiz sistem taramaları  
+❌ Kötü niyetli aktiviteler  
+❌ Yasal olmayan testler  
+
+**Önemli Notlar:**
+- Nmap ve benzeri tarama araçlarının izinsiz kullanımı **5237 sayılı TCK**'nın 243-245. maddelerine göre suçtur
+- Ethical hacking için mutlaka **hedefin yazılı onayını** alın
+- Sorumluluk **tamamen kullanıcıya** aittir
